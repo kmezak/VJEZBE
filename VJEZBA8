@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>vježba 8</title>
+</head>
+<body>
+    <div>
+        <p>
+            Lorem ipsum dolor <b style="color:red">sit</b> amet, consectetur adipiscing elit.
+        </p>
+        <p>
+            Sed volutpat urna <b style="color:red">vitae</b> lorem facilisis, sed vehicula magna rutrum.
+        </p>
+    </div>
+    <p>
+        Maecenas <b style="color:red">vitae</b> nibh massa.
+    </p>
+    <p>
+        Ut finibus non <b style="color:red">sit</b> nec ultrices.
+    </p>
+</body>
+</html>
