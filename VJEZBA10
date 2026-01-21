@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>Moja stranica s faviconom</title>
+
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+
+    <h1>Moja web stranica</h1>
+    <p>Primjer favicon ikone.</p>
+
+</body>
+</html>
