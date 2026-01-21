@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>Kontakt – LEGO klub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="page">
+
+<header>
+    <div class="banner">
+        <img src="lego_banner.jpg" alt="Lego">
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Početna</a></li>
+            <li><a href="#">O nama</a></li>
+            <li><a href="#">Radionice</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+<section class="lego-contact">
+    <h2>Kontaktirajte nas – LEGO podrška</h2>
+    <p>Ispunite obrazac u nastavku.</p>
+
+    <form class="lego-form">
+
+        <div class="form-row">
+            <label>Ime *</label>
+            <input type="text" required>
+        </div>
+
+        <div class="form-row">
+            <label>Prezime *</label>
+            <input type="text" required>
+        </div>
+
+        <div class="form-row">
+            <label>E-mail *</label>
+            <input type="email" required>
+        </div>
+
+        <div class="form-row">
+            <label>Država</label>
+            <select>
+                <option>Hrvatska</option>
+                <option>Slovenija</option>
+                <option>Drugo</option>
+            </select>
+        </div>
+
+        <div class="form-row">
+            <label>Poruka</label>
+            <textarea rows="5"></textarea>
+        </div>
+
+        <div class="form-row">
+            <div class="option">
+                <input type="checkbox" id="news">
+                <label for="news">Želim newsletter</label>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="option">
+                <input type="radio" name="dostava" checked>
+                <label>Standardna</label>
+            </div>
+            <div class="option">
+                <input type="radio" name="dostava">
+                <label>Ekspresna</label>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <label>Promo kod</label>
+            <input type="text" value="USKORO" disabled>
+        </div>
+
+        <button class="btn-send">Pošalji</button>
+    </form>
+</section>
+
+</main>
+
+<footer>
+    © Karolina Mezak
+</footer>
+
+</div>
+
+</body>
+</html>
