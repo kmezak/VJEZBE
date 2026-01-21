@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html lang="hr">
+	<head>
+		<title>Vjezba 5</title>
+	</head>
+	<body>
+		<hr>
+		<p>Popis Mobitela</p>
+		<br>
+				<table border="1" cellpadding="4" cellspacing="4">
+            <tr>
+                <th colspan="2">Samsung</th>
+                <th colspan="2">Apple</th>    
+            </tr>
+            <tr>
+                <td align="center"><img src="https://drop.ndtv.com/TECH/product_database/images/329201783848PM_120_samsung_galaxy_s8.jpeg?downsize=*:80" alt="Samsung Galaxy S8" title="Samsung Galaxy S8"></td>
+                <td>Galaxy S8</td>
+                <td align="center"><img src="https://i.gadgets360cdn.com/products/large/iphone-15-pro-600x800-1694549264.jpg?downsize=*:80" alt="Iphone" title="Iphone 9"></td>
+                <td>Iphone 9</td>    
+            </tr>
+            <tr>
+                <td align="center"><img src="https://i.gadgets360cdn.com/products/large/1519585124_635_samsung_galaxy_s9_blue.jpg?downsize=*:80" alt="Samsung Galaxy S9" title="Samsung Galaxy S9"></td>
+                <td>Samsung Galaxy S9</td>
+                <td align="center"><img src="https://drop.ndtv.com/TECH/product_database/images/913201720152AM_635_iphone_x.jpeg?downsize=*:80" alt="Iphone X" title="Iphone X"></td>
+                <td>Iphone X</td>    
+            </tr>
+        </table>
+	</body>
+</html>
