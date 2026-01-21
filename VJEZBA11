@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html lang="hr">
+    <head>
+        <title>Vjezba 11</title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+    </head>
+    <body>
+      <div>
+        <h1>Vjezba 11</h1>
+      </div>
+      
+        <form method="post" name="forma" id="forma">
+          <label for="firstname">Ime: </label><br>
+          <input type="text" id="firstname" name="firstname" placeholder="Vaše ime..."> <br>
+          <label for="lastname">Prezime: </label><br>
+          <input type="text" id="lastname" name="lastname" placeholder="Vaše prezime..."><br>
+          <label for="email">E-mail: </label><br>
+          <input type="email" id="email" name="email" placeholder="Vaš e-mail..."><br><br>
+          <p>Spol:</p>
+          <input type="radio" id="male" name="gender" value="Male">
+          <label for="male">Muško</label>
+          <input type="radio" id="female" name="gender" value="Female">
+          <label for="female">Žensko</label>
+          <input type="reset" value="Poništi">
+          <input type="submit" value="Pošalji">
+        </form>
+        <hr>
+    </body>
+</html>
