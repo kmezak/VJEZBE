@@ -1,0 +1,161 @@
+
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Roboto", Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.section-header h1,
+.section-title,
+.lego-contact h2,
+.lego-gallery h2 {
+    font-family: "Lobster", Georgia, serif;
+}
+
+
+.page {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #ffffff;
+    border: 2px solid #ffcc00;
+    padding: 16px;
+    margin: 20px 0 10px;
+    border-radius: 8px;
+}
+
+.banner img {
+    width: 100%;
+    display: block;
+    border-bottom: 3px solid #ffcc00;
+}
+
+
+.main-nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.main-nav a {
+    padding: 8px 14px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+
+.main-nav a:hover,
+.main-nav a:focus {
+    background-color: #555;
+}
+
+.main-nav a:active {
+    transform: scale(0.97);
+}
+
+.main-nav a:visited {
+    color: #e0e0ff;
+}
+
+
+.main-nav a[href="gallery.html"] {
+    background-color: #0069d9;
+}
+
+.main-nav a[target="_blank"]::after {
+    content: " ↗";
+}
+
+
+main {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+
+.section-header {
+    background-color: #fff7cc;
+    border-left: 4px solid #ffcc00;
+    padding: 14px;
+    margin-bottom: 20px;
+}
+
+#osnovan {
+    border: 2px solid #ffcc00;
+    padding: 16px;
+    margin-bottom: 16px;
+    border-radius: 6px;
+}
+
+.lego-link {
+    display: inline-block;
+    padding: 10px 18px;
+    border: 2px solid #0069d9;
+    color: #0069d9;
+    border-radius: 4px;
+}
+
+
+.lego-contact {
+    background-color: #f5f9ff;
+    border: 2px solid #0069d9;
+    padding: 24px;
+    border-radius: 8px;
+}
+
+
+.lego-gallery {
+    margin: 2rem auto;
+    padding: 1.5rem;
+}
+
+.gallery-row {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.gallery-row img {
+    width: 32%;
+    border: 4px solid transparent;
+}
+
+
+img[data-set="city"] { border-color: steelblue; }
+img[data-set="technic"] { border-color: orange; }
+img[data-set="friends"] { border-color: deeppink; }
+
+img[src$=".jpg"] {
+    border-radius: 8px;
+}
+
+
+.gallery-row img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
